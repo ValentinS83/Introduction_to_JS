@@ -1,5 +1,5 @@
 let age = 41;
-let years = 5;
+let years = 10;
 console.log(age);
 //console.log(years);
 age = 36;
@@ -22,3 +22,7 @@ let sum = firstNumber + secondNumber;
 console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${sum}`);
 // string interpolation
 
+// scadere
+let pastAge = age - years;
+console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
+console.log(`Acum ${years} ani aveam varsta de ${age - years}`);
