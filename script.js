@@ -52,7 +52,17 @@ console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.MIN_SAFE_INTEGER);
 
 // numere de top BugInt
-let BigIntNumber = 1223456;
-console.log(`BigInt value is ${BigIntNumber} `);
+let bigIntNumber = 1223456;
+console.log(`BigInt value is ${bigIntNumber}`);
 
+// String operation
+const myName = 'Valentin Stefan';
 
+// afisarea unui caracter de la o pozitie
+// primul carcater
+const firstCharInName = myName[0];
+console.log(`Primul caracter din sirul'${myName}' este ${firstCharInName}`);
+
+// lungimea sirului
+const myNameLenght = myName.length;
+console.log(`Lungimea sirului '${myName}' este ${myNameLenght}`);
