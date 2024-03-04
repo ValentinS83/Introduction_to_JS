@@ -44,3 +44,15 @@ let numberE = 15;
 let numberF = 4;
 let moduloResult = numberE % numberF;
 console.log(`Restul impartirii lui ${numberE} la ${numberF} este ${moduloResult}`);
+
+// cum aflam cel mai mare numar de tip number
+console.log(Number.MAX_SAFE_INTEGER);
+
+// cum aflam cel mai muc numar de tip number
+console.log(Number.MIN_SAFE_INTEGER);
+
+// numere de top BugInt
+let BigIntNumber = 1223456;
+console.log(`BigInt value is ${BigIntNumber} `);
+
+
