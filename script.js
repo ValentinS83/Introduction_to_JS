@@ -3,5 +3,9 @@ let years = 5;
 console.log(age);
 //console.log(years);
 age = 36;
-
 console.log(age);
+
+let userName = 'Valentin';
+console.log('name: ');
+console.log(userName);
+
