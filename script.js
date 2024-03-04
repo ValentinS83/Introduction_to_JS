@@ -78,3 +78,11 @@ let separator = ' '
 let fullName = firstName + separator + lastName;
 console.log(`Numele meu complet este ${fullName}`);
 
+// verificare numar par/impar
+
+let checkedNumber = 21;
+
+let remainder = checkedNumber % 22
+
+let isEven = remainder === 0;
+console.log(`Number ${checkedNumber} is even: ${isEven}`);
