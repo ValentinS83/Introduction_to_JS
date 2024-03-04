@@ -67,6 +67,8 @@ console.log(`Primul caracter din sirul'${myName}' este ${firstCharInName}`);
 const myNameLenght = myName.length;
 console.log(`Lungimea sirului '${myName}' este ${myNameLenght}`);
 
+// ultimul caracter din string
+
 let lastCharIndex = myNameLenght - 1;
 let lastChar = myName[lastCharIndex];
 console.log(`Ultimul caracter din sir este ${lastChar}`);
