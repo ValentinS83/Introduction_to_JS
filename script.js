@@ -77,3 +77,4 @@ let lastName = 'Stefan';
 let separator = ' '
 let fullName = firstName + separator + lastName;
 console.log(`Numele meu complet este ${fullName}`);
+
