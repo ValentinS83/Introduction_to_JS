@@ -146,3 +146,33 @@ console.log(`${num1} <= ${num2} => ${lessOrEqualComparsion}`);
 let lessOrEqualComparsion2 = num1 <= num3;
 console.log(`${num1} <= ${num3} => ${lessOrEqualComparsion2}`);
 
+// OPERATORI LOGICI
+let trueValue = true;
+let falseValue = false;
+
+// si logic (&&)
+let logicalAndResult = trueValue && falseValue;
+console.log(`${trueValue} && ${falseValue} => ${logicalAndResult}`);
+
+logicalAndResult = falseValue && falseValue;
+console.log(`${falseValue} && ${falseValue} => ${logicalAndResult}`);
+
+logicalAndResult = trueValue && trueValue;
+console.log(`${trueValue} && ${trueValue} => ${logicalAndResult}`);
+
+// sau logic (||)
+let logicalOrResult = trueValue || falseValue;
+console.log(`${trueValue} || ${falseValue} => ${logicalOrResult}`);
+
+logicalOrResult = falseValue || falseValue;
+console.log(`${falseValue} || ${falseValue} => ${logicalOrResult}`);
+
+logicalOrResult = trueValue || trueValue;
+console.log(`${trueValue} || ${trueValue} => ${logicalOrResult}`);
+
+// negare logica (!) - not operator
+let notTrueValue = !trueValue;
+console.log(`!${trueValue} => ${notTrueValue}`);
+
+let notFalseValue = !falseValue;
+console.log(`!${falseValue} => ${notFalseValue}`);
